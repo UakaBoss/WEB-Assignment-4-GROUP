@@ -1,0 +1,73 @@
+nav {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid ;
+}
+
+#logo {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 32px;
+    margin: 0px 20px;
+    color: #0d6efd;
+    transition: color 0.2s;
+}
+
+#logo span {
+    color: #fd7e14;
+}
+
+#logo:hover {
+    color: #fd7e14;
+}
+
+#logo:hover span {
+    color: #0d6efd;
+}
+
+.nav-item {
+    margin-right: 50px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#nav-link:hover {
+    color: #0d6efd;
+}
+
+#nav-icons {
+    position: relative;
+}
+
+#icon-wishlist,
+#icon-cart {
+    width: 40px;
+    margin-right: 20px;
+    transition: width 0.3s;
+}
+
+#icon-wishlist:hover,
+#icon-cart:hover {
+    width: 45px;
+}
+
+#cartCountNumber,
+#wishlistCountNumber {
+    display: none;
+    padding: 2px 8px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+}
+
+#cartCountNumber {
+    position: absolute;
+    top: 0px;
+    right: 70px;
+}
+
+#wishlistCountNumber {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}

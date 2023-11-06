@@ -1,0 +1,65 @@
+.mobile {
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.mobile img {
+    width: 150px;
+    height: auto;
+}
+
+.mobile-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.mobile {
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    perspective: 1000px;
+    transition: transform 0.3s ease;
+}
+
+.mobile img {
+    width: 100%;
+    height: 100%;
+}
+
+.mobile h2, .mobile p {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add jumping animations */
+.mobile.jumping {
+    transform: scale(1.2);
+}
+
+/* Vote */
+#vote-section {
+    margin-bottom: 30px;
+}
+
+#vote-form > label {
+    margin-bottom: 10px;
+}
+
+#vote-button {
+    margin-top: 10px;
+    padding: 4px 10px;
+    color: #0d6efd;
+    background-color: transparent;
+    border: 1px solid #0d6efd;
+    border-radius: 4px;
+    transition: all 0.1s;
+}
+
+#vote-button:hover {
+    background-color: #0d6efd;
+    color: white;
+}
